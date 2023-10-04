@@ -4,21 +4,21 @@ import org.junit.jupiter.api.Test;
 
 public class PowerTest {
     @Test
-    public void OneRaisedToOneIsOne(){
-        assert PowerFinder.OF(1,1)==1;
+    public void oneRaisedToOneIsOne(){
+        assert PowerFinder.of(1,1)==1;
     }
     @Test
-    public void TwoRaisedToOneIsTwo() {
-        assert PowerFinder.OF(2,1) == 2;
-    }
-
-    @Test
-    public void TwoRaisedToTwoIsFour() {
-        assert PowerFinder.OF(2, 2) == 4;
+    public void twoRaisedToOneIsTwo() {
+        assert PowerFinder.of(2,1) == 2;
     }
 
     @Test
-    public void ThreeRaisedToTwoIsNine() {
-        assert PowerFinder.OF(3, 2) == 9;
+    public void twoRaisedToTwoIsFour() {
+        assert PowerFinder.of(2, 2) == 4;
+    }
+
+    @Test
+    public void threeRaisedToTwoIsNine() {
+        assert PowerFinder.of(3, 2) == 9;
     }
 }
